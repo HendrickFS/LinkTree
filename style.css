@@ -1,0 +1,34 @@
+body {
+    background-color:rgb(36, 33, 33) ;
+}
+.LinkTree{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProfilePic{
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    max-width: 15%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.Name{
+    text-align: center;
+    font-family: Arial;
+    color: red;
+}
+.Links{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    padding: 5px;
+}
+.Links a{
+    padding: 7px;
+}
