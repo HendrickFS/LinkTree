@@ -1,10 +1,14 @@
 body {
     background-color:rgb(36, 33, 33) ;
 }
+
+
 .LinkTree{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px auto;
+    gap: 17px;
 }
 .ProfilePic{
     border-radius: 50%;
@@ -23,12 +27,70 @@ body {
     font-family: Arial;
     color: red;
 }
-.Links{
+
+.LinkTree a{
     display: flex;
     flex-direction: column;
     font-family: Arial;
-    padding: 5px;
+    padding: 15px;
+    width: 90%;
+    background-color: red;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
-.Links a{
-    padding: 7px;
+.LinkTree a:hover{
+    background-color:rgb(36, 33, 33) ;
+    color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.LinkTree button{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial;
+    padding: 15px;
+    width: 95%;
+    background-color: red;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.LinkTree button:hover{
+    background-color:rgb(36, 33, 33) ;
+    color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+.LightMode{
+    background-color: rgb(228, 228, 228);
+}
+.LightMode a{
+    background-color: blue;
+    color: white;
+}
+.LightMode a:hover{
+    background-color: rgb(228, 228, 228);
+    color: blue;
+    border-color: blue;
+}
+.LightMode button{
+    background-color: blue;
+    color: white;
+}
+.LightMode button:hover{
+    background-color: rgb(228, 228, 228);
+    color: blue;
+    border-color: blue;
+}
+.LightMode h1{
+    color: blue;
+}
+.LightMode img{
+    border-color: blue;
 }
