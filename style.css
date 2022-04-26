@@ -1,8 +1,6 @@
 body {
     background-color:rgb(36, 33, 33) ;
 }
-
-
 .LinkTree{
     display: flex;
     flex-direction: column;
@@ -21,11 +19,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
+    box-shadow: 
+        0px 0px 50px red,    
+        0px 0px 100px #000000;
 }
 .Name{
     text-align: center;
     font-family: Arial;
     color: red;
+    text-shadow: 0px 0px 10px red;
 }
 
 .LinkTree a{
@@ -39,6 +41,7 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    box-shadow: 0px 0px 100px #000000;
 }
 .LinkTree a:hover{
     background-color:rgb(36, 33, 33) ;
@@ -46,6 +49,9 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: red;
+    text-shadow:
+        0px 0px 10px red, 
+        0px 0px 10px red;
 }
 
 .LinkTree button{
@@ -59,6 +65,7 @@ body {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    box-shadow: 0px 0px 100px #000000;
 }
 .LinkTree button:hover{
     background-color:rgb(36, 33, 33) ;
@@ -66,6 +73,9 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: red;
+    text-shadow:
+        0px 0px 10px red, 
+        0px 0px 10px red;
 }
 .LightMode{
     background-color: rgb(228, 228, 228);
@@ -78,6 +88,9 @@ body {
     background-color: rgb(228, 228, 228);
     color: blue;
     border-color: blue;
+    text-shadow:
+        0px 0px 10px blue, 
+        0px 0px 10px blue;
 }
 .LightMode button{
     background-color: blue;
@@ -87,10 +100,18 @@ body {
     background-color: rgb(228, 228, 228);
     color: blue;
     border-color: blue;
+    text-shadow:
+        0px 0px 10px blue, 
+        0px 0px 10px blue;
 }
 .LightMode h1{
     color: blue;
+    text-shadow: 0px 0px 10px blue;
 }
 .LightMode img{
     border-color: blue;
+    box-shadow: 
+        0px 0px 50px blue,    
+        0px 0px 100px #ffffff;
+
 }
