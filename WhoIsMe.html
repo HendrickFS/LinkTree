@@ -5,32 +5,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css"/>
         <script src="LightDark.js"></script>
-
         <title>LinkTree</title>
     </head>
     <body>
-        
         <div class="LinkTree">
             <img src="ProfilePic.jpg" alt="Foto de perfil do criador da página" class="ProfilePic">
             <div class="Name">
-                <h1>Hendrick Scheifer</h1>
+                <h1>Quem sou eu?</h1>
                 <script>
                     function TypeText(txt){
                     console.log(txt);
                     const TxtArray = txt.innerHTML.split('');
                     txt.innerHTML='';
                     TxtArray.forEach(function(letter,i) {
-                        setTimeout(() => txt.innerHTML+=letter,200*i)
+                        setTimeout(() => txt.innerHTML+=letter,100*i)
                     });
                     }
                     const txt = document.querySelector('h1');
                     TypeText(txt);  
                 </script>
             </div>
-            <a href="AboutMe.html">Sobre mim</a>
-            <a href="https://www.instagram.com/hendrick.fs">Instagram</a>
-            <a href="https://github.com/HendrickFS">GitHub</a>
-            <a href="https://contate.me/Hendrick">Whatsapp</a>
+            <p> Meu nome é Hendrick Scheifer, cresci na cidade de Iretama, ao longo do ensino fundamental 
+                desenvolvi apego a computadores e tudo o que era relacionado, 
+                então cursei meu ensino médio Técnico Integrado em Informática na UTFPR de Campo Mourão, 
+                onde conheci melhor as diversas áreas da computação e 
+                me apeguei a programação e por isso hoje curso Bacharelado em Ciência da Computação 
+                na UTFPR de Campo Mourão.
+            </p>
+            <a href="Goals.html">Objetivos</a>
+            <a href="Knowledges.html">Conhecimentos</a>
+            <a href="Hobbies.html">Hobbies</a>
             <button onclick="DarkLight()">Dark/Light</button>
         </div>
     </body>

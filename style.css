@@ -1,5 +1,19 @@
 body {
     background-color:rgb(36, 33, 33) ;
+    background: linear-gradient(45deg,rgb(0, 0, 0),rgb(46, 8, 8));
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+}
+@keyframes colors {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 .LinkTree{
     display: flex;
@@ -79,6 +93,9 @@ body {
 }
 .LightMode{
     background-color: rgb(228, 228, 228);
+    background: linear-gradient(45deg,rgb(255, 255, 255),rgb(112, 103, 240));
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
 }
 .LightMode a{
     background-color: blue;
@@ -114,4 +131,15 @@ body {
         0px 0px 50px blue,    
         0px 0px 100px #ffffff;
 
+}
+p{
+    font-size: large;
+    font-family: Arial;
+    color: red;
+    max-width: 80%;
+    text-shadow: 0px 0px 10px red;
+}
+.LightMode p{
+    color: blue;
+    text-shadow: 0px 0px 10px blue;
 }
