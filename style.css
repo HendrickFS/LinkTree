@@ -15,81 +15,94 @@ body {
         background-position: 0% 50%;
     }
 }
-.LinkTree{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px auto;
-    gap: 17px;
-}
-.ProfilePic{
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
-    max-width: 15%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    box-shadow: 
-        0px 0px 50px red,    
-        0px 0px 100px #000000;
-}
-.Name{
-    text-align: center;
-    font-family: Arial;
-    color: red;
-    text-shadow: 0px 0px 10px red;
-}
+@media screen and (min-width: 1024px) {
+    .LinkTree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 19px auto;
+        gap: 16px;
+    }
+    .ProfilePic{
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        max-width: 10%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        box-shadow: 
+            0px 0px 50px red,    
+            0px 0px 100px #000000;
+    }
+    .Name{
+        text-align: center;
+        font-family: Arial;
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
 
-.LinkTree a{
-    display: flex;
-    flex-direction: column;
-    font-family: Arial;
-    padding: 15px;
-    width: 90%;
-    background-color: red;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    box-shadow: 0px 0px 100px #000000;
-}
-.LinkTree a:hover{
-    background-color:rgb(36, 33, 33) ;
-    color: red;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
-    text-shadow:
-        0px 0px 10px red, 
-        0px 0px 10px red;
-}
+    .LinkTree a{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial black;
+        padding: 15px;
+        width: 50%;
+        background-color: rgb(133, 0, 0);
+        border-radius: 8px;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: 0px 0px 30px #000000;
+    }
+    .LinkTree a:hover{
+        background-color:rgb(36, 33, 33) ;
+        color: red;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        text-shadow:
+            0px 0px 10px red, 
+            0px 0px 10px red;
+    }
 
-.LinkTree button{
-    display: flex;
-    flex-direction: column;
-    font-family: Arial;
-    padding: 15px;
-    width: 95%;
-    background-color: red;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    box-shadow: 0px 0px 100px #000000;
-}
-.LinkTree button:hover{
-    background-color:rgb(36, 33, 33) ;
-    color: red;
-    border-style: solid;
-    border-width: 2px;
-    border-color: red;
-    text-shadow:
-        0px 0px 10px red, 
-        0px 0px 10px red;
+    button{
+        font-family: Arial;
+        padding: 10px;
+        width: 4%;
+        background-color: rgb(88, 0, 0);
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: 0px 0px 100px #000000;
+        border-style: solid;
+        border-radius: 20px;
+        border-color: rgb(88, 0, 0);
+    }
+    button:hover{
+        background-color:rgb(36, 33, 33) ;
+        color: red;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        text-shadow:
+            0px 0px 10px red, 
+            0px 0px 10px red;
+    }
+    
+    p{
+        font-size: large;
+        font-family: Arial;
+        color: red;
+        max-width: 80%;
+        text-shadow: 0px 0px 10px red;
+    }
+
 }
 .LightMode{
     background-color: rgb(228, 228, 228);
@@ -98,7 +111,7 @@ body {
     animation: colors 5s ease infinite;
 }
 .LightMode a{
-    background-color: blue;
+    background-color: rgb(0, 0, 170);
     color: white;
 }
 .LightMode a:hover{
@@ -110,8 +123,9 @@ body {
         0px 0px 10px blue;
 }
 .LightMode button{
-    background-color: blue;
+    background-color: rgb(71, 71, 255);
     color: white;
+    border-color: rgb(71, 71, 255);
 }
 .LightMode button:hover{
     background-color: rgb(228, 228, 228);
@@ -130,14 +144,6 @@ body {
     box-shadow: 
         0px 0px 50px blue,    
         0px 0px 100px #ffffff;
-
-}
-p{
-    font-size: large;
-    font-family: Arial;
-    color: red;
-    max-width: 80%;
-    text-shadow: 0px 0px 10px red;
 }
 .LightMode p{
     color: blue;
