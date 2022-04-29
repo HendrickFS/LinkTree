@@ -73,7 +73,185 @@ body {
     button{
         font-family: Arial;
         padding: 10px;
-        width: 4%;
+        width: 6%;
+        background-color: rgb(88, 0, 0);
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: 0px 0px 100px #000000;
+        border-style: solid;
+        border-radius: 20px;
+        border-color: rgb(88, 0, 0);
+    }
+    button:hover{
+        background-color:rgb(36, 33, 33) ;
+        color: red;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        text-shadow:
+            0px 0px 10px red, 
+            0px 0px 10px red;
+    }
+    
+    p{
+        font-size: large;
+        font-family: Arial;
+        color: red;
+        max-width: 80%;
+        text-shadow: 0px 0px 10px red;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .LinkTree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 15px auto;
+        gap: 14px;
+    }
+    .ProfilePic{
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        max-width: 25%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        box-shadow: 
+            0px 0px 50px red,    
+            0px 0px 100px #000000;
+    }
+    .Name{
+        text-align: center;
+        font-family: Arial;
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
+
+    .LinkTree a{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial black;
+        padding: 15px;
+        width: 50%;
+        background-color: rgb(133, 0, 0);
+        border-radius: 8px;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: 0px 0px 30px #000000;
+    }
+    .LinkTree a:hover{
+        background-color:rgb(36, 33, 33) ;
+        color: red;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        text-shadow:
+            0px 0px 10px red, 
+            0px 0px 10px red;
+    }
+
+    button{
+        font-family: Arial;
+        padding: 10px;
+        width: 13%;
+        background-color: rgb(88, 0, 0);
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: 0px 0px 100px #000000;
+        border-style: solid;
+        border-radius: 20px;
+        border-color: rgb(88, 0, 0);
+    }
+    button:hover{
+        background-color:rgb(36, 33, 33) ;
+        color: red;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        text-shadow:
+            0px 0px 10px red, 
+            0px 0px 10px red;
+    }
+    
+    p{
+        font-size: large;
+        font-family: Arial;
+        color: red;
+        max-width: 80%;
+        text-shadow: 0px 0px 10px red;
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width:1024px) {
+    .LinkTree{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 19px auto;
+        gap: 16px;
+    }
+    .ProfilePic{
+        border-radius: 50%;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        max-width: 12%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        box-shadow: 
+            0px 0px 50px red,    
+            0px 0px 100px #000000;
+    }
+    .Name{
+        text-align: center;
+        font-family: Arial;
+        color: red;
+        text-shadow: 0px 0px 10px red;
+    }
+
+    .LinkTree a{
+        display: flex;
+        flex-direction: column;
+        font-family: Arial black;
+        padding: 15px;
+        width: 50%;
+        background-color: rgb(133, 0, 0);
+        border-radius: 8px;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        box-shadow: 0px 0px 30px #000000;
+    }
+    .LinkTree a:hover{
+        background-color:rgb(36, 33, 33) ;
+        color: red;
+        border-style: solid;
+        border-width: 2px;
+        border-color: red;
+        text-shadow:
+            0px 0px 10px red, 
+            0px 0px 10px red;
+    }
+
+    button{
+        font-family: Arial;
+        padding: 10px;
+        width: 8%;
         background-color: rgb(88, 0, 0);
         align-items: center;
         text-decoration: none;
